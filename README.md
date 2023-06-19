@@ -1,4 +1,9 @@
-## `copy_cluster_copy.sh`
+                                           ______             _____                                                   ______  
+    _________________________  __    _________  /___  __________  /_____________ _________________________  __ __________  /_ 
+    _  ___/  __ \__  __ \_  / / /    _  ___/_  /_  / / /_  ___/  __/  _ \_  ___/ _  ___/  __ \__  __ \_  / / / __  ___/_  __ \
+    / /__ / /_/ /_  /_/ /  /_/ /     / /__ _  / / /_/ /_(__  )/ /_ /  __/  /     / /__ / /_/ /_  /_/ /  /_/ /___(__  )_  / / /
+    \___/ \____/_  .___/_\__, /______\___/ /_/  \__,_/ /____/ \__/ \___//_/______\___/ \____/_  .___/_\__, /_(_)____/ /_/ /_/ 
+                /_/     /____/_/_____/                                    _/_____/           /_/     /____/                   
 
 The `copy_cluster_copy.sh` script allows you to copy files or directories locally or between a local machine and a remote cluster using the Secure Copy Protocol (SCP). It also performs an integrity check using MD5 checksums to ensure the successful transfer of data.
 
