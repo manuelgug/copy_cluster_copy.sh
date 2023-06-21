@@ -41,4 +41,4 @@ $ ./copy_cluster_copy.sh dir username@server:/path/to/remote/.
 $ ./copy_cluster_copy.sh username@server:/path/to/remote/dir . 
 ```
 
-Please note that the script requires SSH and SCP to be properly configured for the remote server to enable successful transfers. __You are gonna need to input your password twice!__
+Please note that the script requires SSH and SCP to be properly configured for the remote server to enable successful transfers.
