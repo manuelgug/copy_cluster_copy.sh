@@ -22,6 +22,8 @@ if [[ "$DESTINATION" == *":"* ]]; then #local to cluster
     # transfer the directory to the server using scp
     scp -r $SOURCE $DESTINATION
 
+    aplay ccc_resources/OOT_Secret.wav #notification for second password
+
     # create an md5sum of the directory on the server
     SERVER_MD5=$(ssh $SERVER "cd $SERVER_DESTINATION && find $SOURCE -type f -exec md5sum {} \; | sort -k 2 | md5sum")
     
@@ -41,6 +43,8 @@ else #cluster to local
     
     # transfer the directory to the server using scp
     scp -r $SOURCE $DESTINATION
+
+    aplay ccc_resources/OOT_Secret.wav #notification for second password
     
     # create an md5sum of the directory on the server
     SERVER_MD5=$(ssh $SERVER "cd "$(dirname "$SERVER_SOURCE")" && find "$(basename "$SERVER_SOURCE")" -type f -exec md5sum {} \; | sort -k 2 | md5sum")
