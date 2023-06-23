@@ -29,6 +29,12 @@ The script performs the following actions based on the provided arguments:
 
 ### Example
 
+Note: if you just downloaded `copy_cluster_copy` on your machine, make it executable first
+
+```bash
+$ chmod +x copy_cluster_copy.sh
+```
+
 #### Local to Cluster Transfer
 
 ```bash
